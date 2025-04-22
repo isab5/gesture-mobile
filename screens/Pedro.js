@@ -2,14 +2,15 @@ import React from "react";
 import { View, Text, TouchableOpacity, StyleSheet, Image } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
-export default function Isabel() { 
+export default function Pedro() { 
     const navigation = useNavigation();
 
     return (
         <View style={styles.container}>
-            <TouchableOpacity onPress={() => navigation.navigate("Pedro")}>
-                <Text style={styles.text}>Clique e veja o Pedro</Text>
-                <Image style={styles.img} source={{ uri: 'https://i.pinimg.com/736x/2e/85/72/2e8572620f34dbdbe3e2dba4ca804dc2.jpg' }} />
+            <TouchableOpacity onPress={() => navigation.navigate("Isabella")}>
+                <Text style={styles.text}>Clique e veja a Isabella</Text>
+                <Image style={styles.img} source={{ uri: 'https://i.pinimg.com/736x/e9/44/14/e94414565707cea3810596bfae1c4c87.jpg' }} />
+                
             </TouchableOpacity>
         </View>
     );

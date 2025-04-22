@@ -7,9 +7,9 @@ export default function Isabel() {
 
     return (
         <View style={styles.container}>
-            <TouchableOpacity onPress={() => navigation.navigate("Pedro")}>
-                <Text style={styles.text}>Clique e veja o Pedro</Text>
-                <Image style={styles.img} source={{ uri: 'https://i.pinimg.com/736x/2e/85/72/2e8572620f34dbdbe3e2dba4ca804dc2.jpg' }} />
+            <TouchableOpacity onPress={() => navigation.navigate("Vitor")}>
+                <Text style={styles.text}>Clique e veja o Vitor</Text>
+                <Image style={styles.img} source={{ uri: 'https://i.pinimg.com/736x/1f/54/ac/1f54acbbecdfb5b248d42ace992b699b.jpg' }} />
             </TouchableOpacity>
         </View>
     );
